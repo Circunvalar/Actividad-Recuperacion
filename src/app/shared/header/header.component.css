@@ -1,6 +1,6 @@
 .main-header {
-  background-color: #fff;
-  color: #333;
+  background-color: #d9ffa1;
+  color: #000000;
   padding: 25px 50px;
   display: flex;
   justify-content: space-between;
@@ -56,5 +56,5 @@ input[type="search"] {
 }
 
 input[type="search"]:focus {
-  border-color: #007bff; /* Cambia el color del borde al enfocar */
+  border-color: #d9ffa1; /* Cambia el color del borde al enfocar */
 }

@@ -65,4 +65,9 @@ export class AutenticacionComponent implements OnInit {
       },
     });
   }
+  mostrarPassword = false;
+
+  togglePassword() {
+    this.mostrarPassword = !this.mostrarPassword;
+  }
 }
