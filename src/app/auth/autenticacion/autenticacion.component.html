@@ -9,12 +9,12 @@
         <div class="card-body">
           <form [formGroup]="loginForm" (submit)="realizoLogin()">
             <div class="form-group">
-              <label for="login">Nombre de Usuario:</label>
+              <label for="login">Correo:</label>
               <input
                 type="email"
                 class="form-control"
                 formControlName="login"
-                placeholder="Ingrese su nombre de usuario"
+                placeholder="Ingrese su correo electrónico..."
               />
               @if (login?.invalid && login?.touched) {
               <div>
@@ -30,7 +30,7 @@
                 type="password"
                 class="form-control"
                 formControlName="password"
-                placeholder="Ingrese su contraseña"
+                placeholder="Ingrese su contraseña "
               />
 
               @if (password?.invalid && password?.touched) {
